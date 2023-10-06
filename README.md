@@ -1,6 +1,32 @@
 
 # LAB 02
 
+# Part 1: Oculus Integration - HandsInteractionTrainScene
+
+This repository contains a modification of the HandsInteractionTrainScene as part of the Oculus integration. In Part 1, I made the following changes:
+
+## Button Duplication
+
+I duplicated two buttons within the HandsInteractionTrainScene.
+
+## Implemented Behaviors
+
+### Color Change Behavior
+
+I added a behavior that allows me to change the color of four cacti to red. When I press the associated button, these cacti change color.
+
+### SuperSpeed Behavior
+
+Another behavior I implemented enables the drone to move at a significantly faster pace. Each time I press the corresponding button, the drone's speed increases.
+
+## Button Integration
+
+To activate these behaviors, I connected them to the duplicated buttons through the Interactable state change unity events.
+
+Feel free to explore the repository for the modified scene and associated scripts.
+
+
+
 ## Part 2: Drone and Camera Controls
 
 In Part 2, I integrated specific behaviors for both the drone and the user's perspective (camera) controls. Here are the chosen controls and the reasoning behind them:
