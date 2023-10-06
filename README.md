@@ -1,7 +1,7 @@
 
 # LAB 02
 
-# Part 1: Oculus Integration - HandsInteractionTrainScene
+## Part 1: Oculus Integration - HandsInteractionTrainScene
 
 This repository contains a modification of the HandsInteractionTrainScene as part of the Oculus integration. In Part 1, I made the following changes:
 
