@@ -13,7 +13,7 @@ I duplicated two buttons within the HandsInteractionTrainScene.
 
 ### Color Change Behavior
 
-I added a behavior that allows me to change the color of four cacti to red. When I press the associated button, these cacti change color.
+I added a behavior that allows me to change the color of four cactus to red. When I press the associated button, these cactus change color.
 
 ### SuperSpeed Behavior
 
