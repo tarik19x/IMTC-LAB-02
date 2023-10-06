@@ -1,6 +1,4 @@
-Certainly, here's the README.md file with the "I" instead of "we":
 
-```markdown
 # Unity Drone Control Project
 
 ## Overview
