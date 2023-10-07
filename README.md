@@ -29,9 +29,27 @@ Feel free to explore the repository for the modified scene and associated script
 
 ## Part 2: Drone and Camera Controls
 
-In Part 2, I integrated specific behaviors for both the drone and the user's perspective (camera) controls. Here are the chosen controls and the reasoning behind them:
+### Overview
 
-#### Drone Controls
+In Part 2 of my course assignment, I conducted reviews of three different APK projects for the Oculus Quest 2, created by Omang, Abhishek, and Parinda. Following these reviews, I proceeded to integrate specific behaviors for both the drone and the user's perspective (camera) controls based on my personal preferences and observations.
+
+#### Omang's Drone Project
+
+Omang's project showcased a control scheme where the Right Thumb Stick was utilized to maneuver the drone, which closely aligned with my own design choice. What particularly impressed me was Omang's implementation of a feature where clicking the Right Thumb Stick Button enabled additional control of the Thumb Stick for lateral movement, enhancing the overall maneuverability of the drone. Omang also assigned the right Index button press for the laser function. While effective, I believe that placing laser controls near the thumb could enhance the gaming experience.
+
+#### Abhishek's Drone Project
+
+Abhishek's project displayed several positive aspects but also had some issues. One significant drawback was the inconsistency in turning the drone left using the right thumb button; it required multiple presses to achieve the desired effect. However, Abhishek's approach to camera perspective was intriguing and offered a fresh perspective on the control scheme.
+
+#### Parinda's Drone Project
+
+Parinda's project exhibited certain shortcomings, primarily the inability to turn the drone left or right using the controller. Additionally, incorporating a dedicated button for toggling the laser could have improved user-friendliness.
+
+### Chosen Controls
+
+For my project, I carefully selected controls based on both my preferences and the feedback I gathered:
+
+##### Drone Controls
 
 - **Move Forward**: Right Thumb Stick Forward() - I opted for the right thumbstick for drone movement to keep the left thumbstick for camera control. This allows for smoother drone navigation.
 - **Move Backward**: Right Thumb Stick Backward()
@@ -42,7 +60,7 @@ In Part 2, I integrated specific behaviors for both the drone and the user's per
 - **Turn Laser On**: Right Thumb Stick Button - I assigned an important function like turning the laser on to this button for quick access.
 - **Turn Laser Off**: Left Thumb Stick Button - Similar to turning the laser on, I placed the laser off function on the left thumbstick button for quick access.
 
-#### Camera (User) Controls
+##### Camera (User) Controls
 
 - **Move Forward**: Left Thumb Stick Forward() - To maintain consistency, I used the left thumbstick for camera forward movement.
 - **Move Backward**: Left Thumb Stick Backward()
